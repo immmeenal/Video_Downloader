@@ -21,7 +21,7 @@ def download():
     audio_file.write_audiofile('audio.mp3')
     audio_file.close()
     shutil.move('audio.mp3', file_path)
-    # code for mp3
+    # code for mp4
     video_clip.close()
     shutil.move(mp4, file_path)
     print('Download Complete')
